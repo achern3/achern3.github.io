@@ -1,0 +1,49 @@
+h1 {
+	font-size: 400%;
+}
+
+div.container {
+	width: 100%;
+	border: 1px black;
+}
+
+div.navigation {
+	float: left;
+	max-width: 100px;
+	margin: 0;
+}
+
+header {
+	height: 200px;
+	padding: 1em;
+	color: white;
+	background-color: black;
+	clear: left;
+	text-align: center;
+}
+
+footer {
+	clear: left;
+}
+
+nav {
+	padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+	margin-left: 250px;
+	border-left: 1px black;
+	padding: 1em;
+	overflow: scroll;
+}
+
+#profile_pic {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
