@@ -8,12 +8,10 @@ div.navigation {
 }
 
 header {
-	height: 28vh;
+	height: 152px;
 	padding: 1em;
 	color: white;
-	background-color: #081040;
-	clear: left;
-	text-align: center;
+	background-color: #0A0A40;
 }
 
 header h1 {
@@ -36,6 +34,7 @@ nav ul {
 	font-size: 19px;
 	list-style-type: none;
 	padding: 3em;
+	margin-left: -215px;
 }
 
 nav ul li {
