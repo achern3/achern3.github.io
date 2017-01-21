@@ -19,15 +19,18 @@ header {
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 450%;
 	text-align: center;
 }
 
 footer {
 	clear: left;
+	position: fixed;
+	bottom: 0px;
 }
 
 nav {
+	font-size: 120%;
 	padding: 1em;
 }
 
@@ -36,11 +39,28 @@ nav ul {
 	padding: 0;
 }
 
+nav ul li {
+	margin-bottom: 20px;
+}
+
 article {
-	margin-left: 250px;
+	margin-left: 300px;
 	border-left: 1px black;
 	padding: 1em;
 	overflow: scroll;
+}
+
+div.content {
+	font-size: 120%;
+}
+
+#divider {
+	background: white;
+	float: left;
+	height: 420px;
+	border-left: 2px black solid;
+	right: 1px;
+	margin-right: 20px;
 }
 
 #profile_pic {
